@@ -1,0 +1,63 @@
+body {
+    margin: 0%;
+}
+
+#containerParent {
+    display: flex;
+    flex-wrap: wrap;
+
+    height: 150px;
+}
+
+.flex1 {
+    width: 80%;
+    height: 20%;
+    background-color: rgb(74, 74, 216)
+}
+.flex2 {
+    width: 20%;
+    height: 20%;
+    background-color: rgb(97, 43, 43);
+}
+.flex3 {
+    width: 30%;
+    height: 40%;
+    background-color: rgb(248, 117, 70);
+}
+
+#container1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 40%;
+}
+.flex4 {
+    width: 50%;
+    height: 50%;
+    background-color: cyan;
+}
+.flex5 {
+    width: 50%;
+    height: 50%;
+    background-color: darkolivegreen;
+}
+.flex6 {
+    width: calc(100% / 3);
+    height: 50%;
+    background-color: darksalmon;
+}
+.flex7 {
+    width: calc(100% / 3);
+    height: 50%;
+    background-color: deeppink;
+}
+.flex8 {
+    width: calc(100% / 3);
+    height: 50%;
+    background-color: dimgrey;
+}
+.flex9 {
+    width: 100%;
+    height: 40%;
+    background-color: green;
+}
